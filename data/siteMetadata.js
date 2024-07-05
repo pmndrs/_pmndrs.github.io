@@ -6,7 +6,7 @@ const siteMetadata = {
   description: 'Open source developer collective blog.',
   language: 'en-us',
   theme: 'system', // system, dark or light
-  siteUrl: 'https://pmndrs.github.io/blog',
+  siteUrl: 'https://pmndrs.github.io',
   siteRepo: 'https://github.com/pmndrs/blog',
   siteLogo: '/static/images/logo.png',
   socialBanner: '/static/images/twitter-card.png',
