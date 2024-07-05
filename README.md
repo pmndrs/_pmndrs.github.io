@@ -1,5 +1,9 @@
 [![Open in GitHub Codespaces](https://img.shields.io/static/v1?&message=Open%20in%20%20Codespaces&style=flat&colorA=000000&colorB=000000&label=GitHub&logo=github&logoColor=ffffff)](https://codespaces.new/pmndrs/pmndrs.github.io)
 
+## Authoring
+
+Add a new blog post here: https://github.com/pmndrs/pmndrs.github.io/new/main/data/blog
+
 ## Dev
 
 ```sh
