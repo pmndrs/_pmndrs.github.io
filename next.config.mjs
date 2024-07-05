@@ -3,7 +3,6 @@ import { withContentlayer } from 'next-contentlayer2'
 /** @type {import('next').NextConfig} */
 const nextConfig = withContentlayer({
   output: 'export',
-  basePath: '/blog',
   reactStrictMode: true,
   pageExtensions: ['ts', 'tsx', 'js', 'jsx', 'md', 'mdx'],
   eslint: {
