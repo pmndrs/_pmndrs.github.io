@@ -1,4 +1,31 @@
-/** @type {import('next').NextConfig} */
-const nextConfig = {};
+import { withContentlayer } from 'next-contentlayer2'
 
-export default nextConfig;
+/** @type {import('next').NextConfig} */
+const nextConfig = withContentlayer({
+  output: 'export',
+  basePath: '/blog',
+  reactStrictMode: true,
+  pageExtensions: ['ts', 'tsx', 'js', 'jsx', 'md', 'mdx'],
+  eslint: {
+    dirs: ['app', 'components', 'layouts', 'scripts'],
+  },
+  images: {
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'picsum.photos',
+      },
+    ],
+    unoptimized: true,
+  },
+  webpack: (config, options) => {
+    config.module.rules.push({
+      test: /\.svg$/,
+      use: ['@svgr/webpack'],
+    })
+
+    return config
+  },
+})
+
+export default nextConfig
