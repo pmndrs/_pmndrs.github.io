@@ -7,7 +7,7 @@ const siteMetadata = {
   language: 'en-us',
   theme: 'system', // system, dark or light
   siteUrl: 'https://pmndrs.github.io',
-  siteRepo: 'https://github.com/pmndrs/blog',
+  siteRepo: 'https://github.com/pmndrs/pmndrs.github.io',
   siteLogo: '/static/images/logo.png',
   socialBanner: '/static/images/twitter-card.png',
   // mastodon: 'https://mastodon.social/@pmndrs',
