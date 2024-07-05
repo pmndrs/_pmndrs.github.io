@@ -4,12 +4,12 @@
     "memory": "8gb"
   },
   "waitFor": "onCreateCommand",
-  "updateContentCommand": "npm ci",
+  "updateContentCommand": "yarn",
   "postCreateCommand": "",
-  "postAttachCommand": "npm run dev",
+  "postAttachCommand": "yarn dev",
   "customizations": {
     "codespaces": {
-      "openFiles": ["app/page.tsx"]
+      "openFiles": ["data/blog/code-sample.mdx"]
     },
     "vscode": {
       "settings": {
