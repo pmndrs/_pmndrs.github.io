@@ -23,6 +23,7 @@ module.exports = {
       },
       fontFamily: {
         sans: ['var(--font-space-grotesk)', ...fontFamily.sans],
+        serif: ['var(--font-bodoni-moda)', ...fontFamily.serif],
       },
       colors: {
         primary: colors.gray,
