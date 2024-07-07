@@ -22,8 +22,7 @@ module.exports = {
         14: '3.5rem',
       },
       fontFamily: {
-        sans: ['var(--font-space-grotesk)', ...fontFamily.sans],
-        serif: ['var(--font-bodoni-moda)', ...fontFamily.serif],
+        sans: ['var(--font-inter)', ...fontFamily.sans],
       },
       colors: {
         primary: colors.gray,
