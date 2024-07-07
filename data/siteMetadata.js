@@ -3,7 +3,7 @@ const siteMetadata = {
   title: 'Poimandres',
   author: 'pmndrs',
   headerTitle: 'Pmndrs',
-  description: 'Open source developer collective blog.',
+  description: 'Open source developer collective',
   language: 'en-us',
   theme: 'system', // system, dark or light
   siteUrl: 'https://pmndrs.github.io',
